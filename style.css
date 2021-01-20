@@ -6,9 +6,15 @@ html {
   font-weight: 600;
 }
 
-#descpo {
+.descpo {
   font-size: 40px;
   margin: 80px 100px 0 100px;
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.descpo.appear {
+  opacity: 1;
 }
 
 .redd {
