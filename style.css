@@ -2,6 +2,18 @@ html {
   box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+}
+
+#descpo {
+  font-size: 40px;
+  margin: 80px 100px 0 100px;
+}
+
+.redd {
+  color: red;
+  text-decoration: none;
 }
 
 ul {
