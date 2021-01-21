@@ -4,6 +4,7 @@ html {
   margin: 0 auto;
   font-family: "Crimson Text", serif;
   font-weight: 600;
+  scroll-behavior: smooth;
 }
 
 .descpo {
@@ -47,5 +48,22 @@ li {
   background-repeat: no-repeat;
   height: 200px;
   margin-left: 30px;
-  text-align: ;
+}
+
+#albumcont {
+  display: inline-flex;
+}
+
+#albumtext {
+  font-size: 60px;
+  text-align: center;
+}
+
+.sectionalbum {
+  opacity: 0;
+  transition: opacity 1.5s ease-in;
+}
+
+.sectionalbum.appear {
+  opacity: 1;
 }

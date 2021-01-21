@@ -1,4 +1,5 @@
 const sectionWrite = document.querySelectorAll(".descpo");
+const sectionAlbum = document.querySelectorAll(".sectionalbum");
 
 const options = {
   root: null,
@@ -22,5 +23,9 @@ const appearOnScroll = new IntersectionObserver(function (
 options);
 
 sectionWrite.forEach((section) => {
+  appearOnScroll.observe(section);
+});
+
+sectionAlbum.forEach((section) => {
   appearOnScroll.observe(section);
 });
