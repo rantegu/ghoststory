@@ -6,12 +6,15 @@ html {
   font-weight: 600;
   scroll-behavior: smooth;
 }
-
+a {
+  text-decoration: none;
+}
 .descpo {
   font-size: 40px;
-  margin: 80px 100px 0 100px;
+  margin: 80px 300px 0 300px;
   opacity: 0;
   transition: opacity 250ms ease-in;
+  text-align: center;
 }
 
 .descpo.appear {
@@ -27,7 +30,7 @@ ul {
   text-align: center;
 }
 
-li {
+nav li {
   list-style: none;
   margin: 20px;
   padding: 20px;
@@ -41,6 +44,10 @@ li {
 
 #spotify {
   width: 100%;
+  margin-top: 70px;
+}
+
+#spotify > iframe {
 }
 
 #logo {
@@ -66,4 +73,13 @@ li {
 
 .sectionalbum.appear {
   opacity: 1;
+}
+
+#textback {
+  font-size: 60px;
+  text-align: center;
+}
+
+ul.streaming > li {
+  list-style: none;
 }
