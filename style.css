@@ -59,10 +59,12 @@ nav li {
 
 #albumcont {
   display: inline-flex;
+  width: 100%;
+  justify-content: center;
 }
 
 #albumtext {
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -76,7 +78,7 @@ nav li {
 }
 
 #textback {
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -92,4 +94,9 @@ nav li {
 
 .streaming {
   display: inline-block;
+  margin-right: 50px;
+}
+
+#albumtext {
+  margin: 0 300px 0 300px;
 }
