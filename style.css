@@ -80,6 +80,16 @@ nav li {
   text-align: center;
 }
 
-ul.streaming > li {
-  list-style: none;
+.streaming p {
+  margin: 0;
+  font-size: 30px;
+}
+
+.streaming > a {
+  font-size: 30px;
+  margin: 0;
+}
+
+.streaming {
+  display: inline-block;
 }
