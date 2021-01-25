@@ -42,18 +42,13 @@ nav li {
   text-align: center;
 }
 
-#spotify {
-  width: 100%;
-  margin-top: 70px;
-}
-
 #spotify > iframe {
 }
 
 #logo {
   background-image: url("gianlucapng.png");
   background-repeat: no-repeat;
-  height: 200px;
+  height: 160px;
   margin-left: 30px;
 }
 
@@ -77,7 +72,7 @@ nav li {
   opacity: 1;
 }
 
-#textback {
+#textcont {
   font-size: 30px;
   text-align: center;
 }
@@ -99,4 +94,57 @@ nav li {
 
 #albumtext {
   margin: 0 300px 0 300px;
+}
+
+svg {
+  margin: 20px;
+}
+
+#youtube:hover {
+  fill: red;
+}
+
+#spotify:hover {
+  fill: #1db954;
+}
+
+#apple {
+  margin-bottom: 25px;
+}
+#apple:hover {
+  fill: #fa57c1;
+}
+
+.photos-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px 30px;
+}
+
+.photos-grid {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#photoDescription {
+  text-align: center;
+  font-size: 60px;
+}
+
+#videoAudio {
+  margin-top: 30px;
+}
+
+#textStreaming {
+  margin-bottom: 0;
+}
+
+#photosBody {
+  font-weight: 400;
+  font-style: italic;
+}
+
+#wordEnd {
+  margin: 0;
 }
