@@ -191,3 +191,11 @@ svg {
     height: 300px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #videoAudio iframe {
+    width: 80%;
+    height: 300px;
+    margin: 20px;
+  }
+}
