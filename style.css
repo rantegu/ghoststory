@@ -102,6 +102,7 @@ nav li {
 
 svg {
   margin: 20px;
+  width: 100px;
 }
 
 #youtube:hover {
@@ -124,6 +125,7 @@ svg {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 30px 30px;
+  margin: 20px;
 }
 
 .photos-grid {
@@ -163,6 +165,17 @@ svg {
   margin: 0;
 }
 
+#textStreaming {
+  margin-bottom: 0;
+}
+
+#streamingContenitor {
+  display: inline-grid;
+  place-content: center;
+  grid-row: 1;
+  grid-column: 0;
+}
+
 @media screen and (max-width: 1100px) {
   #albumcont {
     display: grid;
@@ -178,6 +191,11 @@ svg {
   #albumtext {
     margin: 0;
   }
+
+  #textcont p {
+    font-size: 20px;
+    margin: 20px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -190,12 +208,50 @@ svg {
     width: 300px;
     height: 300px;
   }
+
+  #textcont p {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .photos-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px 30px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   #videoAudio iframe {
-    width: 80%;
+    width: 90%;
     height: 300px;
     margin: 20px;
+  }
+
+  nav li {
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  #apple {
+    width: 45px;
+  }
+
+  .descpo {
+    font-size: 20px;
+    margin: 40px;
+  }
+
+  #textcont p {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  #photoDescription {
+    font-size: 30px;
   }
 }
