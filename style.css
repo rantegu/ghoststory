@@ -222,6 +222,10 @@ svg {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 30px 30px;
   }
+
+  .radioLogo {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -256,5 +260,78 @@ svg {
   .container {
     flex: 0 1 100px; /*  No stretching: */
     align-items: baseline;
+  }
+
+  .radioLogo {
+    max-width: 80%;
+  }
+}
+
+.radioStoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.radioStory {
+  flex: 0 1 400px;
+  margin: 40px;
+  padding: 0 8px 0 8px;
+  border: 2px solid grey;
+  border-style: none solid none solid;
+  font-size: 30px;
+}
+
+.mixContainer {
+  max-width: 100%;
+}
+
+.mix iframe {
+  max-width: 100%;
+  height: 125px;
+}
+
+.radioContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.radioLogo {
+  max-width: 50%;
+}
+
+.radioLogo img {
+  max-width: 100%;
+}
+
+.radioBody {
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+.firstLetter {
+  font-size: 60px;
+}
+
+.TITLE p {
+  text-align: center;
+  font-size: 40px;
+}
+
+.radioDesc {
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .radioLogo {
+    max-width: 100%;
+  }
+
+  .radioStory {
+    font-size: 20px;
   }
 }
